@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Phudu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="admission.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="/IMG/log1.png" alt="MANIT LOGO">
+            </a>
+            <div class="nav-links" id="linker">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="admission.html">ADMISSION</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <div class="text">
+        <section class="contain">
+            <header>Registration form</header>
+            <form action="server.html" class="reg">
+                <div class="box">
+                    <label for="FullName">Full Name</label>
+                    <input type="text" name="" id="" placeholder="Enter Full Name" required>
+                </div>
+                <div class="box">
+                    <label for="FullName">Password</label>
+                    <input type="password" name="" id="" placeholder="Password" required>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <label for="FullName">Contact</label>
+                        <input type="Number" name="" id="" placeholder="Mobile/Landline" required>
+                    </div>
+
+                    <div class="box">
+                        <label for="FullName">Email</label>
+                        <input type="email" name="" id="" placeholder="yahoo@gmail.com" required>
+                    </div>
+
+                </div>
+
+                <div class="gen">
+                    <h3>Gender</h3>
+                    <div class="genz">
+                        <div class="mill">
+                            <input type="radio" name="gender" id="checkmale" checked>
+                            <label for="checkmale">Male</label>
+                        </div>
+                        <div class="mill">
+                            <input type="radio" name="gender" id="checkfe">
+                            <label for="checkfe">Female</label>
+                        </div>
+                        <div class="mill">
+                            <input type="radio" name="gender" id="checkoth">
+                            <label for="checkoth">Others</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <label for="Address">Address</label>
+                    <div class="col1">
+                        <input type="text" name="" id="" placeholder="City" required>
+                        <input type="text" name="" id="" placeholder="Pincode" required>
+                        <input type="text" name="" id="" placeholder="State" required>
+                        <input type="text" name="" id="" placeholder="District" required>
+                    </div>
+                </div>
+                <button>Submit</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
